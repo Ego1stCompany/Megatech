@@ -1,0 +1,34 @@
+.navigation__mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .navigation__mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #ADC7BE;
+    }
+
+    .navigation__list-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .navigation__item-mobile a {
+        color: white;
+    }
+
+    .navigation__item-mobile a:hover {
+        cursor: pointer;
+        color: #ADC7BE;
+    }
+}

@@ -1,0 +1,22 @@
+.img__dashboard {
+    width: 35px;
+    height: 35px;
+}
+
+.navigation__item-dashboard {
+    cursor: pointer;
+}
+
+.navigation__dashboard {
+    top: 0;
+    left: 0;
+    box-shadow: 1px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #FFFFFF;
+    width: 95px;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}

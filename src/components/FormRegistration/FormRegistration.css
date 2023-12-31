@@ -1,0 +1,88 @@
+.transform__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formAdmin__registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__formAdmin-content {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 1px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    height: 550px;
+    width: 440px;
+}
+
+.container__formAdmin-image {
+    width: auto;
+    height: 100%;
+}
+
+.img__formAdmin {
+    display: inline-block;
+    height: 100%;
+    width: 440px;
+}
+
+.container__formAdmin-registration {
+    width: 600px;
+    height: 550px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    gap: 20px;
+    box-shadow: 1px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title__registration {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.row__formAdmin-registration {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.label__formAdmin-registration {
+    padding-left: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.input__formAdmin-registration {
+    width: 320px;
+    height: 30px;
+    border: 1px solid #ADC7BE;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.button__formAdmin {
+    border-radius: 10px;
+    background-color: #ADC7BE;
+    padding: 10px 25px;
+    color: #FFFFFF;
+}
+
+.button__formAdmin:hover {
+    color: black;
+}

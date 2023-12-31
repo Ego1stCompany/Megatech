@@ -1,0 +1,32 @@
+.color {
+    color: #ADC7BE;
+}
+
+.header__information {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__information-text {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .header__information {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header__information {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header__information {
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,11 @@
+.message {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.img__message {
+    width: 20px;
+    height: 20px;
+}

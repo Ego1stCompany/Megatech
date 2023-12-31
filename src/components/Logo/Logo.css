@@ -1,0 +1,27 @@
+.logo {
+    width: 80px;
+}
+
+.container__logo {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.img__logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+    .logo {
+        width: 60px;
+    }
+
+    .img__logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+    }
+}

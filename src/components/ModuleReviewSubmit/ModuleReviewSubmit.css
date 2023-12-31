@@ -1,0 +1,38 @@
+.position__module{
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.22);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__module {
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    width: 400px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__img-review {
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.img__review {
+    width: 100px;
+    height: 100px;
+}
+
+.text__module {
+    color: #000000;
+    font-size: 16px;
+}

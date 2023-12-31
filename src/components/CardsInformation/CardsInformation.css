@@ -1,0 +1,119 @@
+.container__cards-information {
+    margin: 0 auto;
+    max-width: 1320px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.container__card-information {
+    padding: 20px 50px;
+    width: 100%;
+    height: 220px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.container__img-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #58C897;
+    width: 100px;
+    height: 100px;
+}
+
+.img__card-information {
+    width: 50px;
+    height: 50px;
+}
+
+.container__text-information {
+    max-width: 125px;
+    text-align: center;
+}
+
+.text__information {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .container__cards-information {
+        max-width: 1140px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container__cards-information {
+        max-width: 992px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container__cards-information {
+        max-width: 620px;
+        flex-wrap: wrap;
+    }
+
+    .container__card-information {
+        width: 46%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container__cards-information {
+        width: 540px;
+    }
+
+    .container__img-information {
+        width: 80px;
+        height: 80px;
+    }
+
+    .img__card-information {
+        width: 40px;
+        height: 40px;
+    }
+
+    .text__information {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container__cards-information {
+        padding: 5px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    .container__card-information {
+        width: 100%;
+    }
+
+    .container__img-information {
+        width: 90px;
+        height: 90px;
+    }
+
+    .img__card-information {
+        width: 50%;
+        height: 50%;
+    }
+
+    .text__information {
+        font-size: 14px;
+    }
+}

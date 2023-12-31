@@ -1,0 +1,30 @@
+.navigation {
+    max-width: 100%;
+    padding: 0 10px 0 10px;
+}
+
+.navigation__list {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation__item {
+    color: #ADC7BE;
+}
+
+.navigation__item a:hover {
+    cursor: pointer;
+    color: #ADC7BE;
+}
+
+@media only screen and (max-width: 1024px) {
+    .navigation__item {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .navigation {
+      display: none;
+    }
+}

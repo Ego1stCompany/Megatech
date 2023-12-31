@@ -1,0 +1,34 @@
+.phoneAdmin {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container__phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img__phone {
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #ADC7BE;
+}
+
+.phone_text {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    .phoneAdmin {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .phoneAdmin {
+        display: flex;
+    }
+}

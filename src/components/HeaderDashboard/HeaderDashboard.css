@@ -1,0 +1,39 @@
+.header__dashboard {
+    background-color: #FFFFFF;
+    box-shadow: 1px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.container__dashboard {
+    max-width: 1800px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin__information {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.text__admin-information {
+    font-size: 14px;
+}
+
+.button__dashboard-exit {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    background-color: #ADC7BE;
+}
+
+.button__dashboard-exit:hover {
+    color: white;
+}
+
+.img__admin-icon {
+    width: 35px;
+    height: 35px;
+}

@@ -1,0 +1,32 @@
+.container__content {
+    margin: 0 auto;
+    max-width: 1320px;
+    padding: 15px;
+
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.title__content {
+    font-size: 22px;
+}
+
+.container__content-text {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.title__content-information {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list__content {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

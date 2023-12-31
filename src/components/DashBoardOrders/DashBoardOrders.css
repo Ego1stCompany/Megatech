@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+}
+
+.container__content-dashboard {
+    margin: 20px;
+    width: 100%;
+}
+
+.list__orders {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.title__dashboard {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
